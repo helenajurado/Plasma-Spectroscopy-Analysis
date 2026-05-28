@@ -1,29 +1,8 @@
 # Plasma Spectroscopy Analysis
 
-## GOAL
-This project analyses a simple emission spectrum and extracts physical parameters such as peak position, line width and relative intensity,
+A small scientific Python project for analysing emission spectra using peak detection and Gaussian fitting. This project connects numerical data analysis with basic physical interpretation of spectral lines, with applications in plasma physics, astrophysics and radiation analysis.
 
-## PHYSICS BACKGROUND
-Short explanation of emission lines. Gaussian broadening and why spectrscopy is useful in plasma and astrophysical diagnostics.
+![Spectrum fit](figures/spectrum_fit.png)
 
-## Methods
-- Python
-- NumPy
-- SciPy
-- Matplotlib
-- Jupyter Notebook
-- LaTeX report
 
-## Results
-Include 2.3 plots and short interpretation
 
-## How to run
-pip install -r requirements.txt
-jupyter notebook
-
-## Future improvements
-- Add real experimental spectra
-- Compare different broadening mechanisms
-- Estimate plasma temperature from line ratios
-
-- 
