@@ -28,12 +28,12 @@ $$
 E = \frac{hc}{\lambda}
 $$
 
-where (h) is Planck's constant, (c) is the speed of light and (\lambda) is the wavelength of the fitted spectral line.
+where (h) is Planck's constant, (c) is the speed of light and $\lambda$ is the wavelength of the fitted spectral line.
 
 Using hc = 1239.84 $\mathrm{eV·nm}$, the photon energy in electronvolts can be estimated from:
 
 $$
-E(eV) = \frac{1239.84}{\lambda nm}
+E(eV) = \frac{1239.84}{\lambda·nm}
 $$
 
 ## Data source
@@ -92,6 +92,8 @@ plasma-spectroscopy-analysis/
 
 The analysis produces fitted Gaussian profiles for the selected spectral lines. From these fits, the central wavelength, width and integrated intensity of each line are estimated.
 
+The results table also includes a rough estimate of the Doppler temperature. This value should be interpreted only as a simplified teaching estimate, because it assumes that the measured line width is entirely due to thermal Doppler broadening. Real spectra would also include instrumental, Stark, pressure and other line-broadening mechanisms.
+
 The fitted line centres are then converted into photon energies, which connects the numerical fit parameters with the physical energy scale of the emitted radiation.
 
 ![Residuals](residuals.png)
@@ -103,8 +105,8 @@ The residuals provide a simple way to check how well the Gaussian model describe
 Clone the repository:
 
 ```bash
-git clone https://github.com/helenajurado/plasma-spectroscopy-analysis.git
-cd plasma-spectroscopy-analysis
+git clone https://github.com/helenajurado/Plasma-Spectroscopy-Analysis.git
+cd Plasma-Spectroscopy-Analysis
 ```
 
 Install the required Python packages:
