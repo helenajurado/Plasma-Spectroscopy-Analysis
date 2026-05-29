@@ -33,7 +33,7 @@ where (h) is Planck's constant, (c) is the speed of light and $\lambda$ is the w
 Using hc = 1239.84 $\mathrm{eV·nm}$, the photon energy in electronvolts can be estimated from:
 
 $$
-E(eV) = \frac{1239.84}{\lambda·nm}
+E(eV) = \frac{1239.84}{\lambda(nm)}
 $$
 
 ## Data source
